@@ -81,6 +81,9 @@
 			 * Add "MAC_LINK_TYPE_PHY" properties for ports
 			 * that have managed PHYs
 			 */
+                        dpmac@5 { link_type = "MAC_LINK_TYPE_PHY"; mdio_bus = "mdio@8B96000"; phy_id = <0x0e>; };
+                        dpmac@7 { link_type = "MAC_LINK_TYPE_PHY"; mdio_bus = "mdio@8B96000"; phy_id = <0x1c>; };
+                        dpmac@8 { link_type = "MAC_LINK_TYPE_PHY"; mdio_bus = "mdio@8B96000"; phy_id = <0x1d>; };
 		};
 	};
 };
